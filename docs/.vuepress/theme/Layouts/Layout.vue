@@ -16,3 +16,7 @@ export default {
 <style lang="stylus">
 @import "../styles/main.styl";
 </style>
+
+<style lang="stylus">
+@import "../styles/other.styl";
+</style>
