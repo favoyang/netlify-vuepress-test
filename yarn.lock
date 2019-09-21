@@ -882,12 +882,26 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
+"@vuepress/plugin-back-to-top@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.1.0.tgz#c765f1be1b2bd04956c2ca627d3737ecde6ac337"
+  integrity sha512-UodMcqqSYERwoQkJQIwqEGxtyQGZMNo0YDfPGXXsIVJqesfeqgTSqfzuZZv/oCAahvG+EHtV4ZzKguls+cm1tA==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-last-updated@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.1.0.tgz#65f2de734f3744026297b4667f3b5276ef99fd06"
   integrity sha512-x2SaAKWk26RK9O0slnZ55eSlBFYdYjFgqkRIfaOf4f2biWqTa9nzaIbvjzvcx3AZKlOWMl81KRwybhDL8E9OsA==
   dependencies:
     cross-spawn "^6.0.5"
+
+"@vuepress/plugin-medium-zoom@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.1.0.tgz#c95560197fff23500b049278584b85f4f3a0ed3d"
+  integrity sha512-DGLRL2YJX6ptmeAOeQSMWh9dgby9B4MXWkiqyXTS+9YNPWEdqvjnXGFvr7VLkXUaZdapnt3OkZDdnq28jUR3fg==
+  dependencies:
+    medium-zoom "^1.0.4"
 
 "@vuepress/plugin-nprogress@^1.1.0":
   version "1.1.0"
@@ -4209,6 +4223,11 @@ lodash.clonedeep@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
@@ -4379,6 +4398,11 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+
+medium-zoom@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/medium-zoom/-/medium-zoom-1.0.4.tgz#b1063093f81151a19989489589edf28e6090630c"
+  integrity sha512-BjE+00gQku3XQfgHDcqyYwQaBtFddzh6Lnj1RZOliqJ9HS0mh/P2IaqVJ25/j9EbnjAUf27mLeLZBRxnd00bfA==
 
 mem@^4.0.0:
   version "4.3.0"

@@ -1,3 +1,3 @@
 # Test
 
-Test netlify publishing on vuepress.
+The paragraph is blue if `main.styl` is applied.
