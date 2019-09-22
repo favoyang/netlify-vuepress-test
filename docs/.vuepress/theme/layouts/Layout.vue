@@ -13,8 +13,8 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-@import "../styles/main-1.styl";
+<style lang="scss">
+@import "../styles/main-1.scss";
 </style>
 
 <style lang="stylus">
