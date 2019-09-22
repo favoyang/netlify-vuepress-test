@@ -14,5 +14,9 @@ export default {
 </script>
 
 <style lang="stylus">
-@import "../styles/main.styl";
+@import "../styles/main-1.styl";
+</style>
+
+<style lang="stylus">
+@import "../styles/main-2.styl";
 </style>
