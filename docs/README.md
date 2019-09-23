@@ -4,17 +4,20 @@
 
 <p class="red">The paragraph is red if <code>index.styl</code> is applied.</p>
 
-<hr>
-<p>The paragraph is red if <code>index.styl</code> overrides <code>custom.scss</code>, as below</p>
+----
 
-<pre><code>↑ custom.scss (load from layouts/Layout.vue's style tag)
+The paragraph is red if `index.styl` overrides `custom.scss`, as below:
+
+```
 ↑ @theme/styles/index.styl
 ↑ @parent-theme/styles/index.styl
-</code></pre>
-
-<p>The paragraph is blue if <code>custom.scss</code> overrides <code>index.styl</code>, as below</p>
-
-<pre><code>↑ @theme/styles/index.styl
-↑ @parent-theme/styles/index.styl
 ↑ custom.scss (load from layouts/Layout.vue's style tag)
-</code></pre>
+```
+
+The paragraph is blue if `custom.scss` overrides `index.styl`, as below:
+
+```
+↑ custom.scss (load from layouts/Layout.vue's style tag)
+↑ @theme/styles/index.styl
+↑ @parent-theme/styles/index.styl
+```
