@@ -2,7 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
 
-  title: 'netlify-vuepress-test',
+  title: 'vuepress bug reporter',
   description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],

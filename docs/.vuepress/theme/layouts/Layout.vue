@@ -14,9 +14,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/main-1.scss";
-</style>
-
-<style lang="stylus">
-@import "../styles/main-2.styl";
+@import "../styles/custom.scss";
 </style>
