@@ -11,13 +11,13 @@ The paragraph is red if `index.styl` overrides `custom.scss`, as below:
 ```
 ↑ @theme/styles/index.styl
 ↑ @parent-theme/styles/index.styl
-↑ custom.scss (load from layouts/Layout.vue's style tag)
+↑ custom.scss (load from layouts/GlobalLayout.vue's style tag)
 ```
 
 The paragraph is blue if `custom.scss` overrides `index.styl`, as below:
 
 ```
-↑ custom.scss (load from layouts/Layout.vue's style tag)
+↑ custom.scss (load from layouts/GlobalLayout.vue's style tag)
 ↑ @theme/styles/index.styl
 ↑ @parent-theme/styles/index.styl
 ```
