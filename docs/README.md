@@ -1,23 +1,27 @@
 # Vuepress theme css order issue
 
-<p class="blue">The paragraph is blue if <code>custom.scss</code> is applied.</p>
+This is an even simple test.
 
-<p class="red">The paragraph is red if <code>index.styl</code> is applied.</p>
+- No custom layout.
+- Just one line in `styles/index.styl` to change navbar title to red.
 
-----
+```
+.navbar .site-name
+    color red
+```
 
-The paragraph is red if `index.styl` overrides `custom.scss`, as below:
+If the navbar color is red, then the css order is below,
 
 ```
 ↑ @theme/styles/index.styl
-↑ @parent-theme/styles/index.styl
-↑ custom.scss (load from layouts/GlobalLayout.vue's style tag)
+↑ navbar component style (located at @parent-theme/components/Navbar.vue)
 ```
 
-The paragraph is blue if `custom.scss` overrides `index.styl`, as below:
+If the navbar color is black, then the css order is below,
 
 ```
-↑ custom.scss (load from layouts/GlobalLayout.vue's style tag)
+↑ navbar component style (located at @parent-theme/components/Navbar.vue)
 ↑ @theme/styles/index.styl
-↑ @parent-theme/styles/index.styl
 ```
+
+You will see difference in dev or build mode.
