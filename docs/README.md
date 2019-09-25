@@ -1,27 +1,11 @@
-# Vuepress theme css order issue
+# Vuepress dynamic router test
 
-This is an even simple test.
+History mode
 
-- No custom layout.
-- Just one line in `styles/index.styl` to change navbar title to red.
+- [/foo](/foo)
+- [/foo:id](/foo/1)
 
-```
-.navbar .site-name
-    color red
-```
+Hash mode
 
-If the navbar color is red, then the css order is below,
-
-```
-↑ @theme/styles/index.styl
-↑ navbar component style (located at @parent-theme/components/Navbar.vue)
-```
-
-If the navbar color is black, then the css order is below,
-
-```
-↑ navbar component style (located at @parent-theme/components/Navbar.vue)
-↑ @theme/styles/index.styl
-```
-
-You will see difference in dev or build mode.
+- [/#/foo](/#/foo)
+- [/#/foo:id](/#/foo/1)

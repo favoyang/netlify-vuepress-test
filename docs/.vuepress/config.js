@@ -2,7 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
 
-  title: 'vuepress bug reporter',
+  title: 'vuepress meets dynamic router',
   description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
